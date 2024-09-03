@@ -9,6 +9,7 @@ console.log(arr[0]);
 console.log(myArr.push(10));
 console.log(myArr);
 
+
 myArr.unshift(6)
 myArr.shift()
 console.log(myArr);
