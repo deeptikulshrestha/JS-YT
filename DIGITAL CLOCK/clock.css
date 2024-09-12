@@ -1,0 +1,36 @@
+nav {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    border: 1px white dotted;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: larger;
+}
+
+body{
+    background-color:black;
+}
+
+
+#banner {
+    background-color: yellow;
+    width: fit-content;
+    margin-top: 400px;
+    margin-left: 700px;
+    color: black;
+    font-size: large;
+}
+
+#clock {
+    background-color: yellow;
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: 700px;
+    color: black;
+    font-size: large;
+}
