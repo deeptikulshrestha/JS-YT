@@ -1,0 +1,26 @@
+nav {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    border: 1px white dotted;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: larger;
+}
+
+body {
+    text-align: center;
+    background-color: gray;
+}
+
+#guess{
+    font-size: xx-large;
+    font-weight: 500;
+}
+#guessField {
+    font-size: larger;
+}
