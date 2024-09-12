@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 2px 2px 4px 2px;
+    
+}
+
+form {
+    align-items: center;
+    text-align: center;
+    background-color: gray
+}
+
+h1 {
+    text-align: center;
+}
