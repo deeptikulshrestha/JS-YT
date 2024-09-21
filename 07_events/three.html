@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ASYNCH</title>
+</head>
+<body>
+    <H1>CHAI AUR JAVASCRIPT</H1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    
+
+    const start = function(str){
+        document.querySelector('#start').addEventListener('click',function(){  
+            console.log("started");
+        })
+       
+    }
+    setTimeout(start,1000,"Hi")
+    const end = function(){
+        document.querySelector('#stop').addEventListener('click',function(){
+            
+            console.log("ended");  
+        })
+        
+    }   
+    clearTimeout(end) 
+</script>
+</html>
