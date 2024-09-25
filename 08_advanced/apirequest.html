@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+ </head>
+ <body>
+    
+ </body>
+ <script>
+     const xml = new XMLHttpRequest();
+     const url = "https://api.github.com/users/hiteshchoudhary";
+     xml.open('GET',url);
+     xml.onreadystatechange = function(){
+        console.log(xml.readyState);
+        if(xml.readyState == 4) {
+            const ready = JSON.parse(this.responseText);
+            console.log(ready);
+            console.log(ready.followers);
+            console.log(ready.following);
+            
+        }
+     }
+     xml.send();
+ </script>
+ </html>
